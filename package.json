@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "description": "Web scraper built with Cloudflare Workers utilizing HTMLRewriter.",
   "main": "index.js",
-  "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
+  "author": "Aditya Shrivastava",
   "license": "MIT"
 }
