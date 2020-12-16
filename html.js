@@ -5,24 +5,24 @@ export default `<!doctype html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Web Scraper · By Adam Schwartz · Powered by Cloudflare Workers®</title>
+    <title>Web Scraper</title>
 
     <meta name="description" content="A simple web scraper powered by Cloudflare Workers®.">
     <meta name="keywords" content="Web scraper, screen scraper, scraper, Cloudflare Workers®, app">
-    <meta name="author" content="Adam Schwartz">
-    <meta name="generator" content="Adam Schwartz">
+    <meta name="author" content="Aditya Shrivastava">
+    <meta name="generator" content="Aditya Shrivastava">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Scraper">
     <meta property="og:description" content="A simple web scraper powered by Cloudflare Workers®.">
-    <meta property="og:url" content="https://web.scraper.workers.dev">
+    <meta property="og:url" content="https://webscraper.adityashri.tk">
 
-    <meta name="twitter:site" content="@adamfschwartz">
-    <meta name="twitter:creator" content="@adamfschwartz">
+    <meta name="twitter:site" content="@adimanus">
+    <meta name="twitter:creator" content="@adimanus">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Web Scraper">
     <meta name="twitter:description" content="A simple web scraper powered by Cloudflare Workers®.">
-    <meta name="twitter:url" content="https://web.scraper.workers.dev">
+    <meta name="twitter:url" content="https://webscraper.adityashri.tk">
 
     <link href="https://ui.components.workers.dev/?helpers=with-selection-styled,is-smooth-scrolling&components=Link,Button,FormField,Input,Checkbox,Radio,Stack,Row,Dialog" rel="stylesheet">
     <script>/* focus-visible polyfill */!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e():"function"==typeof define&&define.amd?define(e):e()}(0,function(){"use strict";"undefined"!=typeof document&&function(t){var e;function n(){e||(e=!0,t())}["interactive","complete"].indexOf(document.readyState)>=0?t():(e=!1,document.addEventListener("DOMContentLoaded",n,!1),window.addEventListener("load",n,!1))}(function(){var t=!0,e=!1,n=null,o={text:!0,search:!0,url:!0,tel:!0,email:!0,password:!0,number:!0,date:!0,month:!0,week:!0,time:!0,datetime:!0,"datetime-local":!0};function r(t){return!!(t&&t!==document&&"HTML"!==t.nodeName&&"BODY"!==t.nodeName&&"classList"in t&&"contains"in t.classList)}function i(t){""!==t.getAttribute("is-focus-visible")&&t.setAttribute("is-focus-visible","")}function u(e){t=!1}function c(){document.addEventListener("mousemove",s),document.addEventListener("mousedown",s),document.addEventListener("mouseup",s),document.addEventListener("pointermove",s),document.addEventListener("pointerdown",s),document.addEventListener("pointerup",s),document.addEventListener("touchmove",s),document.addEventListener("touchstart",s),document.addEventListener("touchend",s)}function s(e){"html"!==e.target.nodeName.toLowerCase()&&(t=!1,document.removeEventListener("mousemove",s),document.removeEventListener("mousedown",s),document.removeEventListener("mouseup",s),document.removeEventListener("pointermove",s),document.removeEventListener("pointerdown",s),document.removeEventListener("pointerup",s),document.removeEventListener("touchmove",s),document.removeEventListener("touchstart",s),document.removeEventListener("touchend",s))}document.addEventListener("keydown",function(e){r(document.activeElement)&&i(document.activeElement),t=!0},!0),document.addEventListener("mousedown",u,!0),document.addEventListener("pointerdown",u,!0),document.addEventListener("touchstart",u,!0),document.addEventListener("focus",function(e){var n,u,c;r(e.target)&&(t||(n=e.target,u=n.type,"INPUT"==(c=n.tagName)&&o[u]&&!n.readOnly||"TEXTAREA"==c&&!n.readOnly||n.isContentEditable))&&i(e.target)},!0),document.addEventListener("blur",function(t){var o;r(t.target)&&t.target.hasAttribute("is-focus-visible")&&(e=!0,window.clearTimeout(n),n=window.setTimeout(function(){e=!1,window.clearTimeout(n)},100),""===(o=t.target).getAttribute("is-focus-visible")&&o.removeAttribute("is-focus-visible"))},!0),document.addEventListener("visibilitychange",function(n){"hidden"==document.visibilityState&&(e&&(t=!0),c())},!0),c(),document.documentElement.setAttribute("js-focus-visible-polyfill-available","")})})</script>
@@ -285,12 +285,12 @@ export default `<!doctype html>
     <div class="Surface">
       <div class="Panel">
         <div class="Panel--top">
-          <h1><a href="https://web.scraper.workers.dev" class="Link Link-without-underline"><span class="WebScraperLogo"><span>web.scraper</span><span class="WebScraperLogo--muted">.workers.dev</span></span></a></h1>
+          <h1><a href="https://web.scraper.workers.dev" class="Link Link-without-underline"><span class="WebScraperLogo"><span>Web</span><span class="WebScraperLogo--muted"> Scraper</span></span></a></h1>
           <button data-js-dialog-open class="Button Button-is-help Button-is-bordered" type="button" aria-label="Help">?</button>
         </div>
 
         <main class="Panel--main" is-smooth-scrolling>
-          <form id="form" class="Stack" method="GET" action="https://web.scraper.workers.dev">
+          <form id="form" class="Stack" method="GET" action="https://webscraper.adityashri.tk">
             <div class="FormField">
               <div class="FormField--text">
                 <label class="FormField--label" for="url">URL</label>
@@ -344,7 +344,7 @@ export default `<!doctype html>
         <div class="Panel--bottom">
           <div class="Row">
             <button class="Button Button-is-primary" type="submit" form="form"><span class="desktop-only">Update preview</span><span class="mobile-only">Scrape</span></button>
-            <a data-js-permalink href="https://web.scraper.workers.dev" class="Button Button-is-bordered" type="button">Permalink</a>
+            <a data-js-permalink href="https://webscraper.adityashri.tk" class="Button Button-is-bordered" type="button">Permalink</a>
           </div>
         </div>
       </div>
@@ -362,7 +362,7 @@ export default `<!doctype html>
         <div class="Dialog--content">
           <p>Web Scraper makes it effortless to scrape websites. Just provide a URL and CSS selector and it will return JSON containing the text contents of the matching elements.</p>
 
-          <p>Built by <a class="Link" href="https://adamschwartz.co" target="_blank" rel="noopener">Adam Schwartz</a> using <a class="Link" href="https://workers.cloudflare.com" target="_blank" rel="noopener">Cloudflare Workers</a>, open-source and available on <a class="Link" href="https://github.com/adamschwartz/web.scraper.workers.dev" target="_blank" rel="noopener">Github</a>.</p>
+          <p>Built by <a class="Link" href="https://adityashri.tk" target="_blank" rel="noopener">Aditya Shrivastava</a> using <a class="Link" href="https://workers.cloudflare.com" target="_blank" rel="noopener">Cloudflare Workers</a>, open-source and available on <a class="Link" href="https://github.com/aditya-shri/web.scraper.workers.dev" target="_blank" rel="noopener">Github</a>.</p>
         </div>
 
         <div class="Dialog--actions">
